@@ -16,14 +16,19 @@ table {
   border-collapse: collapse;
   width: 40%;
   margin: auto;
-  border: 1px solid black;
+  border: 1px solid #e9f5f5;
 }
 
 th, td {
   text-align: center;
   padding: 8px;
+  border-bottom: 1px solid #e9f5f5;
 }
 
-tr:nth-child(even) {
-  background-color: lightgray;
+tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+table .table__header {
+  background-color: unset;
 }

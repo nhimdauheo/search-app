@@ -53,7 +53,7 @@ function App() {
         <p>Please press enter after entering search</p>
         <table>
             <thead>
-                <tr>
+                <tr className='table__header'>
                     <td>STT</td>
                     <td>Name Pokemon</td>
                 </tr>
